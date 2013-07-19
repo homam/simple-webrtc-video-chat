@@ -8,7 +8,7 @@ app.use express.static './public'
 app.get '/:room', (req, res) ->
   res.render 'index.jade', params: req.query, room_count: io.clientsByRoom[req.params.room]?.length || 0
 
-server =  app.listen 3002
+server =  app.listen 80
 
 io = ws.attach server
 

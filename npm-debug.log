@@ -1,0 +1,210 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'yo' ]
+2 info using npm@1.2.25
+3 info using node@v0.10.10
+4 verbose read json /usr/local/lib/package.json
+5 verbose read json /usr/local/lib/package.json
+6 verbose cache add [ 'yo', null ]
+7 verbose cache add name=undefined spec="yo" args=["yo",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'yo',
+8 verbose parsed url   path: 'yo',
+8 verbose parsed url   href: 'yo' }
+9 silly lockFile c41975d1-yo yo
+10 verbose lock yo /Users/Homam/.npm/c41975d1-yo.lock
+11 silly lockFile c41975d1-yo yo
+12 silly lockFile c41975d1-yo yo
+13 verbose addNamed [ 'yo', '' ]
+14 verbose addNamed [ null, '' ]
+15 silly lockFile d937c28e-yo yo@
+16 verbose lock yo@ /Users/Homam/.npm/d937c28e-yo.lock
+17 silly addNameRange { name: 'yo', range: '', hasData: false }
+18 verbose url raw yo
+19 verbose url resolving [ 'https://registry.npmjs.org/', './yo' ]
+20 verbose url resolved https://registry.npmjs.org/yo
+21 info trying registry request attempt 1 at 21:59:25
+22 verbose etag "CMLJSG2G5OGYDUOGHORHHVND7"
+23 http GET https://registry.npmjs.org/yo
+24 http 200 https://registry.npmjs.org/yo
+25 silly registry.get cb [ 200,
+25 silly registry.get   { vary: 'Accept',
+25 silly registry.get     server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+25 silly registry.get     etag: '"6SFVWRFLWJ4ST00S9JKQJ7679"',
+25 silly registry.get     date: 'Fri, 19 Jul 2013 17:59:27 GMT',
+25 silly registry.get     'content-type': 'application/json',
+25 silly registry.get     'content-length': '30754' } ]
+26 silly addNameRange number 2 { name: 'yo', range: '', hasData: true }
+27 silly addNameRange versions [ 'yo',
+27 silly addNameRange   [ '1.0.0-beta.1',
+27 silly addNameRange     '1.0.0-beta.2',
+27 silly addNameRange     '1.0.0-beta.3',
+27 silly addNameRange     '1.0.0-beta.4',
+27 silly addNameRange     '1.0.0-beta.5',
+27 silly addNameRange     '1.0.0-beta.6',
+27 silly addNameRange     '1.0.0-beta.7',
+27 silly addNameRange     '1.0.0-rc.1',
+27 silly addNameRange     '1.0.0-rc.1.1' ] ]
+28 verbose addNamed [ 'yo', '1.0.0-rc.1.1' ]
+29 verbose addNamed [ '1.0.0-rc.1.1', '1.0.0-rc.1.1' ]
+30 silly lockFile 1fd30b69-yo-1-0-0-rc-1-1 yo@1.0.0-rc.1.1
+31 verbose lock yo@1.0.0-rc.1.1 /Users/Homam/.npm/1fd30b69-yo-1-0-0-rc-1-1.lock
+32 silly lockFile 36c44f69-npmjs-org-yo-yo-1-0-0-rc-1-1-tgz https://registry.npmjs.org/yo/-/yo-1.0.0-rc.1.1.tgz
+33 verbose lock https://registry.npmjs.org/yo/-/yo-1.0.0-rc.1.1.tgz /Users/Homam/.npm/36c44f69-npmjs-org-yo-yo-1-0-0-rc-1-1-tgz.lock
+34 verbose addRemoteTarball [ 'https://registry.npmjs.org/yo/-/yo-1.0.0-rc.1.1.tgz',
+34 verbose addRemoteTarball   'af97d72a2efbacf462880c2bd8012e59d3c76c78' ]
+35 info retry fetch attempt 1 at 21:59:28
+36 verbose fetch to= /var/folders/2z/zy8mqp9d2x54zl254wp_p46w0000gn/T/npm-4367/1374256768362-0.6730261780321598/tmp.tgz
+37 http GET https://registry.npmjs.org/yo/-/yo-1.0.0-rc.1.1.tgz
+38 http 200 https://registry.npmjs.org/yo/-/yo-1.0.0-rc.1.1.tgz
+39 verbose tar unpack /var/folders/2z/zy8mqp9d2x54zl254wp_p46w0000gn/T/npm-4367/1374256768362-0.6730261780321598/tmp.tgz
+40 silly lockFile f6c3c475-68362-0-6730261780321598-package /var/folders/2z/zy8mqp9d2x54zl254wp_p46w0000gn/T/npm-4367/1374256768362-0.6730261780321598/package
+41 verbose lock /var/folders/2z/zy8mqp9d2x54zl254wp_p46w0000gn/T/npm-4367/1374256768362-0.6730261780321598/package /Users/Homam/.npm/f6c3c475-68362-0-6730261780321598-package.lock
+42 silly lockFile 73d7c1a8-68362-0-6730261780321598-tmp-tgz /var/folders/2z/zy8mqp9d2x54zl254wp_p46w0000gn/T/npm-4367/1374256768362-0.6730261780321598/tmp.tgz
+43 verbose lock /var/folders/2z/zy8mqp9d2x54zl254wp_p46w0000gn/T/npm-4367/1374256768362-0.6730261780321598/tmp.tgz /Users/Homam/.npm/73d7c1a8-68362-0-6730261780321598-tmp-tgz.lock
+44 silly gunzTarPerm modes [ '755', '644' ]
+45 silly gunzTarPerm extractEntry package.json
+46 silly gunzTarPerm extractEntry .travis.yml
+47 silly gunzTarPerm extractEntry bin/yoyo.js
+48 silly gunzTarPerm extractEntry bin/help.txt
+49 silly gunzTarPerm extractEntry bin/yo
+50 silly gunzTarPerm extractEntry out.txt
+51 silly gunzTarPerm extractEntry readme.md
+52 verbose read json /var/folders/2z/zy8mqp9d2x54zl254wp_p46w0000gn/T/npm-4367/1374256768362-0.6730261780321598/package/package.json
+53 silly lockFile f6c3c475-68362-0-6730261780321598-package /var/folders/2z/zy8mqp9d2x54zl254wp_p46w0000gn/T/npm-4367/1374256768362-0.6730261780321598/package
+54 silly lockFile f6c3c475-68362-0-6730261780321598-package /var/folders/2z/zy8mqp9d2x54zl254wp_p46w0000gn/T/npm-4367/1374256768362-0.6730261780321598/package
+55 silly lockFile 73d7c1a8-68362-0-6730261780321598-tmp-tgz /var/folders/2z/zy8mqp9d2x54zl254wp_p46w0000gn/T/npm-4367/1374256768362-0.6730261780321598/tmp.tgz
+56 silly lockFile 73d7c1a8-68362-0-6730261780321598-tmp-tgz /var/folders/2z/zy8mqp9d2x54zl254wp_p46w0000gn/T/npm-4367/1374256768362-0.6730261780321598/tmp.tgz
+57 verbose from cache /var/folders/2z/zy8mqp9d2x54zl254wp_p46w0000gn/T/npm-4367/1374256768362-0.6730261780321598/package/package.json
+58 verbose tar pack [ '/Users/Homam/.npm/yo/1.0.0-rc.1.1/package.tgz',
+58 verbose tar pack   '/var/folders/2z/zy8mqp9d2x54zl254wp_p46w0000gn/T/npm-4367/1374256768362-0.6730261780321598/package' ]
+59 verbose tarball /Users/Homam/.npm/yo/1.0.0-rc.1.1/package.tgz
+60 verbose folder /var/folders/2z/zy8mqp9d2x54zl254wp_p46w0000gn/T/npm-4367/1374256768362-0.6730261780321598/package
+61 silly lockFile f6c3c475-68362-0-6730261780321598-package /var/folders/2z/zy8mqp9d2x54zl254wp_p46w0000gn/T/npm-4367/1374256768362-0.6730261780321598/package
+62 verbose lock /var/folders/2z/zy8mqp9d2x54zl254wp_p46w0000gn/T/npm-4367/1374256768362-0.6730261780321598/package /Users/Homam/.npm/f6c3c475-68362-0-6730261780321598-package.lock
+63 silly lockFile 15b2ee12--npm-yo-1-0-0-rc-1-1-package-tgz /Users/Homam/.npm/yo/1.0.0-rc.1.1/package.tgz
+64 verbose lock /Users/Homam/.npm/yo/1.0.0-rc.1.1/package.tgz /Users/Homam/.npm/15b2ee12--npm-yo-1-0-0-rc-1-1-package-tgz.lock
+65 silly lockFile f6c3c475-68362-0-6730261780321598-package /var/folders/2z/zy8mqp9d2x54zl254wp_p46w0000gn/T/npm-4367/1374256768362-0.6730261780321598/package
+66 silly lockFile f6c3c475-68362-0-6730261780321598-package /var/folders/2z/zy8mqp9d2x54zl254wp_p46w0000gn/T/npm-4367/1374256768362-0.6730261780321598/package
+67 silly lockFile 15b2ee12--npm-yo-1-0-0-rc-1-1-package-tgz /Users/Homam/.npm/yo/1.0.0-rc.1.1/package.tgz
+68 silly lockFile 15b2ee12--npm-yo-1-0-0-rc-1-1-package-tgz /Users/Homam/.npm/yo/1.0.0-rc.1.1/package.tgz
+69 silly lockFile 51e6d09a-omam-npm-yo-1-0-0-rc-1-1-package /Users/Homam/.npm/yo/1.0.0-rc.1.1/package
+70 verbose lock /Users/Homam/.npm/yo/1.0.0-rc.1.1/package /Users/Homam/.npm/51e6d09a-omam-npm-yo-1-0-0-rc-1-1-package.lock
+71 silly lockFile 51e6d09a-omam-npm-yo-1-0-0-rc-1-1-package /Users/Homam/.npm/yo/1.0.0-rc.1.1/package
+72 silly lockFile 51e6d09a-omam-npm-yo-1-0-0-rc-1-1-package /Users/Homam/.npm/yo/1.0.0-rc.1.1/package
+73 verbose tar unpack /Users/Homam/.npm/yo/1.0.0-rc.1.1/package.tgz
+74 silly lockFile 51e6d09a-omam-npm-yo-1-0-0-rc-1-1-package /Users/Homam/.npm/yo/1.0.0-rc.1.1/package
+75 verbose lock /Users/Homam/.npm/yo/1.0.0-rc.1.1/package /Users/Homam/.npm/51e6d09a-omam-npm-yo-1-0-0-rc-1-1-package.lock
+76 silly lockFile 15b2ee12--npm-yo-1-0-0-rc-1-1-package-tgz /Users/Homam/.npm/yo/1.0.0-rc.1.1/package.tgz
+77 verbose lock /Users/Homam/.npm/yo/1.0.0-rc.1.1/package.tgz /Users/Homam/.npm/15b2ee12--npm-yo-1-0-0-rc-1-1-package-tgz.lock
+78 silly gunzTarPerm modes [ '755', '644' ]
+79 silly gunzTarPerm extractEntry package.json
+80 silly gunzTarPerm extractEntry .travis.yml
+81 silly gunzTarPerm extractEntry bin/yoyo.js
+82 silly gunzTarPerm extractEntry bin/help.txt
+83 silly gunzTarPerm extractEntry bin/yo
+84 silly gunzTarPerm extractEntry out.txt
+85 silly gunzTarPerm extractEntry readme.md
+86 verbose read json /Users/Homam/.npm/yo/1.0.0-rc.1.1/package/package.json
+87 silly lockFile 51e6d09a-omam-npm-yo-1-0-0-rc-1-1-package /Users/Homam/.npm/yo/1.0.0-rc.1.1/package
+88 silly lockFile 51e6d09a-omam-npm-yo-1-0-0-rc-1-1-package /Users/Homam/.npm/yo/1.0.0-rc.1.1/package
+89 silly lockFile 15b2ee12--npm-yo-1-0-0-rc-1-1-package-tgz /Users/Homam/.npm/yo/1.0.0-rc.1.1/package.tgz
+90 silly lockFile 15b2ee12--npm-yo-1-0-0-rc-1-1-package-tgz /Users/Homam/.npm/yo/1.0.0-rc.1.1/package.tgz
+91 verbose from cache /Users/Homam/.npm/yo/1.0.0-rc.1.1/package/package.json
+92 verbose chmod /Users/Homam/.npm/yo/1.0.0-rc.1.1/package.tgz 644
+93 verbose chown /Users/Homam/.npm/yo/1.0.0-rc.1.1/package.tgz [ 501, 20 ]
+94 silly lockFile 36c44f69-npmjs-org-yo-yo-1-0-0-rc-1-1-tgz https://registry.npmjs.org/yo/-/yo-1.0.0-rc.1.1.tgz
+95 silly lockFile 36c44f69-npmjs-org-yo-yo-1-0-0-rc-1-1-tgz https://registry.npmjs.org/yo/-/yo-1.0.0-rc.1.1.tgz
+96 silly lockFile 1fd30b69-yo-1-0-0-rc-1-1 yo@1.0.0-rc.1.1
+97 silly lockFile 1fd30b69-yo-1-0-0-rc-1-1 yo@1.0.0-rc.1.1
+98 silly lockFile d937c28e-yo yo@
+99 silly lockFile d937c28e-yo yo@
+100 silly resolved [ { name: 'yo',
+100 silly resolved     version: '1.0.0-rc.1.1',
+100 silly resolved     description: 'CLI tool for scaffolding out Yeoman projects',
+100 silly resolved     keywords:
+100 silly resolved      [ 'front-end',
+100 silly resolved        'development',
+100 silly resolved        'dev',
+100 silly resolved        'build',
+100 silly resolved        'web',
+100 silly resolved        'tool',
+100 silly resolved        'cli',
+100 silly resolved        'scaffold',
+100 silly resolved        'stack' ],
+100 silly resolved     homepage: 'http://yeoman.io',
+100 silly resolved     bugs: { url: 'https://github.com/yeoman/yo/issues' },
+100 silly resolved     author: { name: 'Chrome Developer Relations' },
+100 silly resolved     bin: { yo: 'bin/yo' },
+100 silly resolved     repository: { type: 'git', url: 'git://github.com/yeoman/yo.git' },
+100 silly resolved     scripts: { test: 'mocha' },
+100 silly resolved     dependencies:
+100 silly resolved      { 'yeoman-generator': '~0.12.2',
+100 silly resolved        colors: '~0.6.0',
+100 silly resolved        nopt: '~2.1.1',
+100 silly resolved        lodash: '~1.1.1',
+100 silly resolved        'update-notifier': '~0.1.3',
+100 silly resolved        insight: '~0.1.0',
+100 silly resolved        'sudo-block': '~0.1.0',
+100 silly resolved        async: '~0.2.9',
+100 silly resolved        open: '0.0.3' },
+100 silly resolved     peerDependencies: { 'grunt-cli': '~0.1.7', bower: '>=0.9.0' },
+100 silly resolved     devDependencies:
+100 silly resolved      { mocha: '~1.9.0',
+100 silly resolved        ronn: '~0.4.0',
+100 silly resolved        grunt: '~0.4.1',
+100 silly resolved        mockery: '~1.4.0' },
+100 silly resolved     engines: { node: '>=0.8.0', npm: '>=1.2.10' },
+100 silly resolved     preferGlobal: true,
+100 silly resolved     licenses: [ [Object] ],
+100 silly resolved     readme: '# Yo [![Build Status](https://secure.travis-ci.org/yeoman/yo.png?branch=master)](http://travis-ci.org/yeoman/yo)\n\nCLI tool for scaffolding out [Yeoman](https://github.com/yeoman/yeoman) projects\n\n## [Documentation](https://github.com/yeoman/yeoman/wiki)\n\n\n## Options\n\n- `--no-color` flag to disable colors.\n\n- `--no-insight`/`--insight` to toggle anonymous [Insight](https://github.com/yeoman/insight) tracking which helps us improve Yeoman. Using either of these flags on the first run will prevent you from being prompted about it interactively. The flags can also be used to change it later on.\n\n\n## Contribute\n\nSee the [contributing docs](https://github.com/yeoman/yeoman/blob/master/contributing.md)\n\n\n## License\n\n[BSD license](http://opensource.org/licenses/bsd-license.php) and copyright Google\n',
+100 silly resolved     readmeFilename: 'readme.md',
+100 silly resolved     _id: 'yo@1.0.0-rc.1.1',
+100 silly resolved     dist: { shasum: 'c2f36ea2ea1f169462b07779c6ed4d89d0a37b21' },
+100 silly resolved     _from: 'yo@',
+100 silly resolved     _resolved: 'https://registry.npmjs.org/yo/-/yo-1.0.0-rc.1.1.tgz' } ]
+101 info install yo@1.0.0-rc.1.1 into /usr/local/lib
+102 info installOne yo@1.0.0-rc.1.1
+103 verbose from cache /Users/Homam/.npm/yo/1.0.0-rc.1.1/package/package.json
+104 info /usr/local/lib/node_modules/yo unbuild
+105 verbose read json /usr/local/lib/node_modules/yo/package.json
+106 info preuninstall yo@1.0.0-beta.3
+107 info uninstall yo@1.0.0-beta.3
+108 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild yo@1.0.0-beta.3
+109 verbose /usr/local/bin,[object Object] binRoot
+110 info postuninstall yo@1.0.0-beta.3
+111 info /usr/local/lib/node_modules/yo unbuild
+112 verbose read json /usr/local/lib/node_modules/yo/package.json
+113 info preuninstall yo@1.0.0-beta.3
+114 info uninstall yo@1.0.0-beta.3
+115 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild yo@1.0.0-beta.3
+116 verbose /usr/local/bin,[object Object] binRoot
+117 info postuninstall yo@1.0.0-beta.3
+118 error error rolling back Error: EACCES, unlink '/usr/local/lib/node_modules/yo'
+118 error error rolling back  yo@1.0.0-rc.1.1 { [Error: EACCES, unlink '/usr/local/lib/node_modules/yo']
+118 error error rolling back   errno: 3,
+118 error error rolling back   code: 'EACCES',
+118 error error rolling back   path: '/usr/local/lib/node_modules/yo' }
+119 error Error: EACCES, unlink '/usr/local/lib/node_modules/yo'
+119 error  { [Error: EACCES, unlink '/usr/local/lib/node_modules/yo']
+119 error   errno: 3,
+119 error   code: 'EACCES',
+119 error   path: '/usr/local/lib/node_modules/yo' }
+120 error Please try running this command again as root/Administrator.
+121 error System Darwin 12.4.0
+122 error command "node" "/usr/local/bin/npm" "install" "-g" "yo"
+123 error cwd /Users/Homam/dev/simple-webrtc-video-chat
+124 error node -v v0.10.10
+125 error npm -v 1.2.25
+126 error path /usr/local/lib/node_modules/yo
+127 error code EACCES
+128 error errno 3
+129 error stack Error: EACCES, unlink '/usr/local/lib/node_modules/yo'
+130 verbose exit [ 3, true ]
